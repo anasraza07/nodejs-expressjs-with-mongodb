@@ -1,0 +1,19 @@
+{
+  "name": "taskapp",
+  "version": "1.0.0",
+  "description": "creating taskapp with node express and mongodb",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.21.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}

@@ -1,0 +1,7 @@
+// middleware = beech ka function hota hai jo req jaanay aur response ke aanay ke mid main chalta hai, ye application level aur router level pr chalta hai, iska use error handling, req-res ke objects ko modifying, req-res ke cycle ko end krne aur next function ko call krne ke liye bhi hota hai
+
+// route => request => controllers => service => controller => response
+// route = banta he request kya lye
+// controller = req se data lena , data ko validate krna ,
+// service = service se jo data return hota he wo, database se saara jo kaam wo service mein krte hen
+// response = response mein data chala jata he
